@@ -9,7 +9,7 @@ public class CompanyUsers {
         String command = scan.nextLine();
 
         LinkedHashMap<String, List<String>> mapCompanyUsers = new LinkedHashMap<>();
-        while(!command.equals("End")) {
+        while (!command.equals("End")) {
             String company = command.split(" -> ")[0];
             String userID = command.split(" -> ")[1];
 
