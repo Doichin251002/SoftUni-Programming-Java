@@ -1,2 +1,2 @@
-# SoftUni-Programming-Fundamentals-2022
-Solutions of problems in SoftUni Course: Programming Fundamentals
+# SoftUni-Programming-Java
+Solutions of problems in SoftUni Java Courses
