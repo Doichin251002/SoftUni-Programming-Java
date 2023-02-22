@@ -1,2 +1,2 @@
 # SoftUni-Programming-Java
-Solutions of problems in SoftUni Java Courses
+Solutions of problems in SoftUni Java Course
