@@ -2,7 +2,299 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06714ac8-95ee-4698-a2d5-9633aec5d7f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Exercises/Objects and Classes/AdvertisementMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/Objects and Classes/AdvertisementMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Arrays/ArrayModifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Arrays/ArrayRotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Arrays/CommonElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Arrays/EqualSums.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Arrays/MagicSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Arrays/MaxSequenceEqualElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Arrays/TopIntegers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Arrays/Train.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Arrays/TreasureHunt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Arrays/ZigZagArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Associative Arrays/CompanyUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Associative Arrays/CountCharsInString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Associative Arrays/Courses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Associative Arrays/ForceBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Associative Arrays/LegendaryFarming.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Associative Arrays/MinerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Associative Arrays/Orders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Associative Arrays/SoftUniExamResults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Associative Arrays/SoftUniParking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Associative Arrays/StudentAcademy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Basic Syntax Conditionals Loops/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Basic Syntax Conditionals Loops/Orders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Basic Syntax Conditionals Loops/PadawanEquipment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Basic Syntax Conditionals Loops/PrintAndSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Basic Syntax Conditionals Loops/RageExpenses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Basic Syntax Conditionals Loops/StrongNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Basic Syntax Conditionals Loops/TriangleNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Basic Syntax Conditionals Loops/VendingMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/BeerKegs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/Elevator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/IntegerOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/PartASCIITable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/PokeMon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/Snowballs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/SpiceMustFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/SumChars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/SumDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/TriplesLetters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Data Types and Variables/WaterOverflow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/CarSalesman/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/CarSalesman/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/CarSalesman/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/CompanyRoster/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/CompanyRoster/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/CompanyRoster/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/Google/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/Google/Child.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/Google/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/Google/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/Google/Parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/Google/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/Google/Pokemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/OpinionPoll/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/OpinionPoll/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/PokemonTrainer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/PokemonTrainer/Pokemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/PokemonTrainer/Trainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/RawData/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/RawData/Cargo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/RawData/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/RawData/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/RawData/Tire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/SpeedRacing/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/SpeedRacing/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/softUni/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/softUni/SoftUni.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Defining Classes/softUni/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Functional Programming/AppliedArithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Functional Programming/ConsumerPrint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Functional Programming/CustomMinFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Functional Programming/FindTheSmallestElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Functional Programming/KnightsOfHonor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Functional Programming/ListOfPredicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Functional Programming/PredicateForNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Functional Programming/ReverseAndExclude.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Generics/Box/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Generics/Box/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Generics/CustomList/CustomList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Generics/CustomList/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Generics/CustomList/Sorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Lists/AnonymousThreat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Lists/AppendArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Lists/BombNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Lists/CardsGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Lists/ChangeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Lists/HouseParty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Lists/ListOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Lists/PokemonDontGo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Lists/SoftUniCoursePlanning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Lists/Train.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Methods/AddAndSubtract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Methods/CharactersInRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Methods/FactorialDivision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Methods/MiddleCharacters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Methods/NxNMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Methods/PalindromeIntegers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Methods/PasswordValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Methods/SmallestOfThreeNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Methods/TopNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Methods/VowelsCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/Crossfire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/DiagonalDifference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/FillMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/MatrixPalindromes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/MatrixShuffling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/MaximalSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/MouseAndCheese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/NavyBattle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/RallyRacing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/StickyFingers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/StringMatrixRotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Multidimensional Arrays/ThroneConquering.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Objects and Classes/AdvertisementMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Objects and Classes/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Objects and Classes/OpinionPoll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Objects and Classes/OrderByAge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Objects and Classes/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Objects and Classes/VehicleCatalogue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Regular Expressions/ExtractEmails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Regular Expressions/Furniture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Regular Expressions/NetherRealms.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Regular Expressions/Race.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Regular Expressions/SoftUniBarIncome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Regular Expressions/StarEnigma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Sets and Maps/CountSymbols.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Sets and Maps/FixEmails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Sets and Maps/HandsOfCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Sets and Maps/PeriodicTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Sets and Maps/Phonebook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Sets and Maps/SerbianUnleashed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Sets and Maps/SetsOfElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Sets and Maps/UniqueUsernames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Sets and Maps/UserLogs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Stacks and Queues/BalancedParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Stacks and Queues/BasicQueueOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Stacks and Queues/BasicStackOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Stacks and Queues/InfixToPostfix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Stacks and Queues/MaximumElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Stacks and Queues/PoisonousPlants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Stacks and Queues/RecursiveFibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Stacks and Queues/ReverseNumbersWithStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Stacks and Queues/Robotics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Stacks and Queues/SimpleTextEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/AllCapitals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/CountCharacterTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/GetFolderSize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/LineNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/MergeTwoFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/Exercises Resources/Exercises Resources.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/Exercises Resources/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/Exercises Resources/inputLineNumbers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/Exercises Resources/inputOne.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/Exercises Resources/inputTwo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/Exercises Resources/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/Exercises Resources/words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/inputLineNumbers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/inputOne.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/inputTwo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/Resources/04. Java-Advanced-Files-and-Streams-Exercises-Resources/words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/SumBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/SumLines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Streams/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Text Processing/CaesarCipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Text Processing/CharacterMultiplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Text Processing/ExtractFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Text Processing/LettersChangeNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Text Processing/MultiplyBigNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Text Processing/ReplaceRepeatingChars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Text Processing/StringExplosion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/Text Processing/ValidUsernames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Arrays/CondenseArrayNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Arrays/DayOfWeek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Arrays/EqualArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Arrays/EvenAndOddSubtraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Arrays/PrintNumsReverseOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Arrays/ReverseArrayStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Arrays/SumEvenNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Associative Arrays/CountRealNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Associative Arrays/OddOccurrences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Associative Arrays/WordFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Associative Arrays/WordSynonyms.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Basic Syntax Conditionals Loops/BackIn30Min.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Basic Syntax Conditionals Loops/EvenNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Basic Syntax Conditionals Loops/ForeignLanguages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Basic Syntax Conditionals Loops/MonthPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Basic Syntax Conditionals Loops/MultiplicationTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Basic Syntax Conditionals Loops/Passed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Basic Syntax Conditionals Loops/StudentInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Basic Syntax Conditionals Loops/TheatrePromotion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Data Types and Variables/CenturiesMinutes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Data Types and Variables/ExactSumRealNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Data Types and Variables/MetersKilometers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Data Types and Variables/PoundsDollars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Data Types and Variables/ReversedChars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Data Types and Variables/SpecialNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Data Types and Variables/TownInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Defining Classes/BankAccount/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Defining Classes/BankAccount/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Defining Classes/CarConstructors/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Defining Classes/CarConstructors/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Defining Classes/CarInfo/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Defining Classes/CarInfo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Exceptions/EnterNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Exceptions/EnterNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Functional Programming/AddVAT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Functional Programming/CountUppercaseWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Functional Programming/FilterByAge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Functional Programming/FindEvensOrOdds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Functional Programming/SortEvenNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Functional Programming/SumNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Generics/GenericArrayCreator/ArrayCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Generics/GenericArrayCreator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Generics/GenericScale/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Generics/GenericScale/Scale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Generics/Jar/Jar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Generics/Jar/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Generics/ListUtilities/ListUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Generics/ListUtilities/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Iterators and Comparators/Book/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Iterators and Comparators/Book/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Iterators and Comparators/BookComparator/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Iterators and Comparators/BookComparator/BookComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Iterators and Comparators/BookComparator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Iterators and Comparators/ComparableBook/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Iterators and Comparators/ComparableBook/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Iterators and Comparators/Library/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Iterators and Comparators/Library/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Iterators and Comparators/Library/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lists/GaussTrick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lists/ListManipulationAdvanced.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lists/ListManipulationBasics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lists/ListOfProducts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lists/MergingLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lists/RemoveNegativesAndReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lists/SumAdjacentEqualNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/CalculateRectangleArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/Calculations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/Grades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/GreaterOfTwoValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/MathOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/MathPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/MultiplyEvensByOdds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/Orders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/PrintingTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/RepeatString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Methods/SignOfInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Multidimensional Arrays/CompareMatrices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Multidimensional Arrays/IntersectionOf2Matrices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Multidimensional Arrays/MaximumSumOf2X2Submatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Multidimensional Arrays/PositionOf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Multidimensional Arrays/PrintDiagonalsOfSquareMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Multidimensional Arrays/SumMatrixElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Multidimensional Arrays/WrongMeasurements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Objects and Classes/BigFactorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Objects and Classes/BigNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Objects and Classes/RandomizeWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Objects and Classes/Songs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Objects and Classes/Student2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Objects and Classes/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Regular Expressions/MatchDates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Regular Expressions/MatchFullName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Regular Expressions/MatchPhoneNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Sets and Maps/AcademyGraduation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Sets and Maps/AverageStudentsGrades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Sets and Maps/CitiesByContinentCountry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Sets and Maps/CountRealNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Sets and Maps/Largest3Numbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Sets and Maps/ParkingLot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Sets and Maps/ProductShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Sets and Maps/SoftUniParty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Sets and Maps/Voina_NumberGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Stacks and Queues/BrowserHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Stacks and Queues/BrowserHistoryUpgrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Stacks and Queues/DecimalToBinaryConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Stacks and Queues/HotPotato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Stacks and Queues/MatchingBrackets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Stacks and Queues/MathPotato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Stacks and Queues/PrinterQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Stacks and Queues/SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Streams/CopyBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Streams/ExtractIntegers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Streams/ListFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Streams/NestedFolders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Streams/ReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Streams/SortLines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Streams/WriteEveryThirdLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Streams/WriteToFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Text Processing/DigitsLettersOther.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Text Processing/RepeatStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Text Processing/ReverseStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Text Processing/Substring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Text Processing/TextFilter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

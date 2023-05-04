@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class EnterNumbers {
     private static Scanner scan;
-
     public static class NumbersException extends RuntimeException {
         public NumbersException(String message, NumberFormatException cause) {
             super(message, cause);
