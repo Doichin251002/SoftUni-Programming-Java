@@ -1,7 +1,7 @@
 CREATE DATABASE gamebar;
 USE gamebar;
 
--- Problem 1
+# Query 1. Create Tables
 CREATE TABLE employees(
 `id` INT PRIMARY KEY AUTO_INCREMENT,
 `first_name` VARCHAR(20) NOT NULL,
@@ -19,23 +19,23 @@ CREATE TABLE products(
 `category_id` INT NOT NULL
 );
 
--- Problem 2
+# Query 2. Insert Data in Tables
 INSERT INTO employees(`first_name`, `last_name`)
 VALUES
 ('test1', 'Test1'),
 ('test2', 'Test2'),
 ('test3', 'Test3');
 
--- Problem 3
+# Query 3. Alter Tables
 ALTER TABLE employees
 ADD COLUMN `middle_name` VARCHAR(20) NOT NULL;
 
--- Problem 4
+# Query 4. Adding Constraints
 ALTER TABLE products
 ADD CONSTRAINT `fk_products_categories`
 FOREIGN KEY (`category_id`)
 REFERENCES categories(`id`);
 
--- Problem 5
+# Query 5. Modifying Columns
 ALTER TABLE employees
 MODIFY `middle_name` VARCHAR(100);

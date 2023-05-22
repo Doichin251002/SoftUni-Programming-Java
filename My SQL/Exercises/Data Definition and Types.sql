@@ -1,7 +1,7 @@
 CREATE DATABASE minions;
 USE minions;
 
--- Problem 1 
+# Query 1. Create Tables
 CREATE TABLE minions (
     `id` INT PRIMARY KEY AUTO_INCREMENT,
     `name` VARCHAR(50),
@@ -13,7 +13,7 @@ CREATE TABLE towns (
     `name` VARCHAR(50)
 );
 
--- Problem 2
+# Query 2. Alter Minions Table
 ALTER TABLE minions
 ADD COLUMN`town_id` INT;
 
@@ -22,7 +22,7 @@ ADD CONSTRAINT `fk_minions_towns`
 FOREIGN KEY minions(`town_id`)
 REFERENCES towns(`id`);
 
--- Problem 3
+# Query 3. Insert Records in Both Tables
 INSERT INTO towns(`id`, `name`) 
 VALUES (1, 'Sofia'),
 (2, 'Plovdiv'),
@@ -38,13 +38,13 @@ SELECT
 FROM
     minions;
 
--- Problem 4
+# Query 4. Truncate Table Minions
 TRUNCATE TABLE minions;
 
--- Problem 5
+# Query 5. Drop All Tables
 DROP TABLES minions, towns;
 
--- Problem 6
+# Query 6. Create Table People
 CREATE TABLE people (
     `id` INT PRIMARY KEY AUTO_INCREMENT,
     `name` VARCHAR(200) NOT NULL,
@@ -69,7 +69,7 @@ SELECT
 FROM
     people;
 
--- Problem 7
+# Query 7. Create Table Users
 CREATE TABLE users (
     `id` INT PRIMARY KEY AUTO_INCREMENT,
     `username` VARCHAR(30) NOT NULL,
@@ -92,18 +92,18 @@ SELECT
 FROM
     users;
 
--- Problem 8
+# Query 8. Change Primary Key
 ALTER TABLE users
 DROP PRIMARY KEY,
 ADD CONSTRAINT pk_users2
 PRIMARY KEY users(`id`, `username`);
 
--- Problem 9
+# Query 9. Set Default Value of a Field
 ALTER TABLE users
 CHANGE COLUMN `last_login_time`
 `last_login_time` DATETIME DEFAULT NOW();
 
--- Problem 10
+# Query 10. Set Unique Field
 ALTER TABLE users
 DROP PRIMARY KEY,
 ADD CONSTRAINT pk_users
@@ -111,7 +111,7 @@ PRIMARY KEY users(`id`),
 CHANGE COLUMN `username`
 `username` VARCHAR(30) UNIQUE;
 
--- Problem 11
+# Query 11. Movies Database
 CREATE DATABASE movies;
 USE movies;
 
@@ -188,7 +188,7 @@ SELECT
 FROM
     movies;
     
--- Problem 12
+# Query 12. Car Rental Database
 CREATE DATABASE car_rental;
 use car_rental;
 
@@ -281,7 +281,7 @@ VALUES
 (1, 2, 3),
 (1, 2, 3);
 
--- Problem 13
+# Query 13. Basic Insert
 CREATE DATABASE soft_uni;
 USE soft_uni;
 
@@ -345,7 +345,9 @@ SELECT
 FROM
     employees;
 
--- Problem 14, 15, 16
+# Query 14. Basic Select All Fields, 
+# Query 15. Basic Select All Fields and Order Them
+# Query 16. Basic Select Some Fields
 SELECT 
     `name`
 FROM
@@ -362,7 +364,7 @@ FROM
     employees AS e
 ORDER BY e.salary DESC;
 
--- Problem 17
+# Query 17. Increase Employees Salary
 UPDATE employees 
 SET 
     salary = salary * 1.1;

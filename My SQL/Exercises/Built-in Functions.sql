@@ -1,4 +1,5 @@
--- soft_uni Problem 1
+-- DATABASE soft_uni 
+# Query 1. Find Names of All Employees by First Name
 USE soft_uni;
 
 SELECT 
@@ -9,7 +10,7 @@ WHERE
     `first_name` LIKE 'Sa%'
 ORDER BY `employee_id`;
 
--- Problem 2
+# Query 2. Find Names of All Employees by Last Name
 SELECT 
     `first_name`, `last_name`
 FROM
@@ -18,7 +19,7 @@ WHERE
     `last_name` LIKE '%ei%'
 ORDER BY `employee_id`;
 
--- Problem 3
+# Query 3. Find First Names of All Employess
 SELECT 
     `first_name`
 FROM
@@ -28,7 +29,7 @@ WHERE
         AND (EXTRACT(YEAR FROM `hire_date`) BETWEEN '1995' AND '2005')
 ORDER BY `employee_id`;
 
--- Problem 4
+# Query 4. Find All Employees Except Engineers
 SELECT 
     `first_name`, `last_name`
 FROM
@@ -37,7 +38,7 @@ WHERE
     `job_title` NOT LIKE '%engineer%'
 ORDER BY `employee_id`;
 
--- Problem 5
+# Query 5. Find Towns with Name Length
 SELECT 
     `name`
 FROM
@@ -46,7 +47,7 @@ WHERE
     CHAR_LENGTH(`name`) IN (5 , 6)
 ORDER BY `name`;
 
--- Problem 6
+# Query 6. Find Towns Starting With
 SELECT 
     *
 FROM
@@ -55,7 +56,7 @@ WHERE
     `name` REGEXP '^[MKBE]'
 ORDER BY `name`;
 
--- Problem 7
+# Query 7. Find Towns Not Starting With
 SELECT 
     *
 FROM
@@ -66,7 +67,7 @@ WHERE
         AND `name` NOT LIKE 'D%'
 ORDER BY `name`;
 
--- Problem 8
+# Query 8. Create View Employees Hired After
 CREATE VIEW v_employees_hired_after_2000 AS
     SELECT 
         `first_name`, `last_name`
@@ -80,7 +81,7 @@ SELECT
 FROM
     v_employees_hired_after_2000;
 
--- Problem 9
+# Query 9. Length of Last Name
 SELECT 
     `first_name`, `last_name`
 FROM
@@ -88,7 +89,8 @@ FROM
 WHERE
     CHAR_LENGTH(`last_name`) = 5;
 
--- geography Problem 10
+# Query DATABASE geography 
+# Query 10. Countries Holding 'A'
 USE geography;
 
 SELECT 
@@ -99,7 +101,7 @@ WHERE
     `country_name` LIKE '%A%A%A%'
 ORDER BY `iso_code`;
 
--- Problem 11
+# Query 11. Mix of Peak and River Names
 SELECT 
     p.`peak_name`,
     r.`river_name`,
@@ -113,7 +115,8 @@ WHERE
     LOWER(RIGHT(p.`peak_name`, 1)) = LOWER(LEFT(r.`river_name`, 1))
 ORDER BY `mix`;
 
--- diablo Problem 12
+-- DATABASE diablo 
+# Query 12. Games From 2011 and 2012 Year
 USE diablo;
 
 SELECT 
@@ -125,7 +128,7 @@ WHERE
 ORDER BY `start` , `name`
 LIMIT 50;
 
--- Problem 13
+# Query 13. User Email Providers
 SELECT 
     `user_name`,
     SUBSTRING(`email`,
@@ -134,7 +137,7 @@ FROM
     users
 ORDER BY `email provider` , `user_name`;
 
--- Problem 14
+# Query 14. Get Users with IP Address Like Pattern
 SELECT 
     `user_name`, `ip_address`
 FROM
@@ -143,7 +146,7 @@ WHERE
     `ip_address` LIKE '___.1%.%.___'
 ORDER BY `user_name`;
 
--- Problem 15
+# Query 15. Show All Games with Duration
 SELECT 
     `name` AS `game`,
     CASE
@@ -160,7 +163,8 @@ SELECT
 FROM
     games;
     
--- orders Problem 16
+-- DATABASE orders 
+# Query 16. Orders Table
 USE orders;
 
 SELECT 

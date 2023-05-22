@@ -1,4 +1,5 @@
--- soft_uni Problem 1
+-- DATABASE soft_uni 
+# Query 1. Find All Information About Departments
 USE soft_uni;
 
 SELECT 
@@ -7,28 +8,29 @@ FROM
     departments
 ORDER BY `department_id`;
 
--- Problem 2
+# Query 2. Find all Department Names
 SELECT 
     `name`
 FROM
     departments
 ORDER BY `department_id`;
 
--- Problem 3
+# Query 3. Find Salary of Each Employee
+
 SELECT 
     `first_name`, `last_name`, `salary`
 FROM
     employees
 ORDER BY `employee_id`;
 
--- Problem 4
+# Query 4. Find Full Name of Each Employee
 SELECT 
     `first_name`, `middle_name`, `last_name`
 FROM
     employees
 ORDER BY `employee_id`;
 
--- Problem 5
+# Query 5. Find Email Address of Each Employee
 SELECT 
     CONCAT(`first_name`,
             '.',
@@ -37,13 +39,13 @@ SELECT
 FROM
     employees;
 
--- Problem 6
+# Query 6. Find All Different Employee’s Salaries
 SELECT DISTINCT
     `salary`
 FROM
     employees;
 
--- Problem 7
+# Query 7. Find all Information About Employees
 SELECT 
     `employee_id` AS `id`,
     `first_name` AS `First Name`,
@@ -60,7 +62,7 @@ FROM
 WHERE
     `job_title` = 'Sales Representative';
 
--- Problem 8
+# Query 8. Find Names of All Employees by Salary in Range
 SELECT 
     `first_name`, `last_name`, `job_title`
 FROM
@@ -69,7 +71,7 @@ WHERE
     `salary` BETWEEN 20000 AND 30000
 ORDER BY `employee_id`;
 
--- Problem 9
+# Query 9. Find Names of All Employees
 SELECT 
     CONCAT(`first_name`,
             ' ',
@@ -81,7 +83,7 @@ FROM
 WHERE
     `salary` IN (25000 , 14000, 12500, 23600);
 
--- Problem 10
+# Query 10. Find All Employees Without Manager
 SELECT 
     `first_name`, `last_name`
 FROM
@@ -89,7 +91,7 @@ FROM
 WHERE
     `manager_id` IS NULL;
 
--- Problem 11
+# Query 11. Find All Employees with Salary More Than
 SELECT 
     `first_name`, `last_name`, `salary`
 FROM
@@ -98,7 +100,7 @@ WHERE
     `salary` > 50000
 ORDER BY `salary` DESC;
 
--- Problem 12
+# Query 12. Find 5 Best Paid Employees
 SELECT 
     `first_name`, `last_name`
 FROM
@@ -106,7 +108,7 @@ FROM
 ORDER BY `salary` DESC
 LIMIT 5;
 
--- Problem 13
+# Query 13. Find All Employees Except Marketing
 SELECT 
     `first_name`, `last_name`
 FROM
@@ -114,21 +116,21 @@ FROM
 WHERE
     NOT `department_id` = 4;
 
--- Problem 14
+# Query 14. Sort Employees Table
 SELECT 
     *
 FROM
     employees
 ORDER BY `salary` DESC , `first_name` ASC , `last_name` DESC , `middle_name` ASC , `employee_id` ASC;
  
- -- Problem 15
+# Query 15. Create View Employees with Salaries
 CREATE VIEW v_employees_salaries AS
     SELECT 
         `first_name`, `last_name`, `salary`
     FROM
         employees;
     
--- Problem 16
+# Query 16. Create View Employees with Job Titles
 CREATE VIEW v_employees_job_titles AS
     SELECT 
         CONCAT_WS(' ',
@@ -139,14 +141,14 @@ CREATE VIEW v_employees_job_titles AS
     FROM
         employees;
 
--- Problem 17
+# Query 17. Distinct Job Titles
 SELECT DISTINCT
     `job_title`
 FROM
     employees
 ORDER BY `job_title`;
 
--- Problem 18
+# Query 18. Find First 10 Started Projects
 SELECT 
     *
 FROM
@@ -154,7 +156,7 @@ FROM
 ORDER BY `start_date` , `name` , `project_id`
 LIMIT 10;
 
--- Problem 19
+# Query 19. Last 7 Hired Employees
 SELECT 
     `first_name`, `last_name`, `hire_date`
 FROM
@@ -162,7 +164,7 @@ FROM
 ORDER BY `hire_date` DESC
 LIMIT 7;
 
--- Problem 20
+# Query 20. Increase Salaries
 UPDATE employees 
 SET 
     `salary` = `salary` * 1.12
@@ -174,7 +176,8 @@ SELECT
 FROM
     employees;
 
--- geography Problem 21
+-- DATABASE geography 
+# Query 21. All Mountain Peaks
 USE geography;
 
 SELECT 
@@ -183,7 +186,7 @@ FROM
     peaks
 ORDER BY `peak_name`;
 
--- Problem 22
+# Query 22. Biggest Countries by Population
 SELECT 
     `country_name`, `population`
 FROM
@@ -193,7 +196,7 @@ WHERE
 ORDER BY `population` DESC , `country_name`
 LIMIT 30;
 
--- Problem 23
+# Query 23. Countries and Currency (Euro / Not Euro)
 SELECT 
     `country_name`,
     `country_code`,
@@ -204,7 +207,8 @@ FROM
     countries
 ORDER BY `country_name`;
 
--- diablo Problem 24
+-- DATABASE diablo 
+# Query 24. All Diablo Characters
 USE diablo;
 
 SELECT 
