@@ -308,7 +308,7 @@ CREATE TABLE employees (
     `last_name` VARCHAR(30) NOT NULL,
     `job_title` VARCHAR(40),
     `department_id` INT NOT NULL,
-    `hire_date` DATETIME DEFAULT NOW (),
+    `hire_date` DATETIME DEFAULT NOW(),
     `salary` DOUBLE(6 , 2 ) NOT NULL,
     `address_id` INT,
     FOREIGN KEY (`department_id`)
