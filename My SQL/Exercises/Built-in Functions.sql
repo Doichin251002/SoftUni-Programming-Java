@@ -19,7 +19,7 @@ WHERE
     `last_name` LIKE '%ei%'
 ORDER BY `employee_id`;
 
-# Query 3. Find First Names of All Employess
+# Query 3. Find First Names of All Employees
 SELECT 
     `first_name`
 FROM
