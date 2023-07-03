@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/BillsPaymentSystem/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BillsPaymentSystem/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Football/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Football/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gringotts/Sales/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gringotts/Sales/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Hospital/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Hospital/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Sales/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Sales/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/University/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/University/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
