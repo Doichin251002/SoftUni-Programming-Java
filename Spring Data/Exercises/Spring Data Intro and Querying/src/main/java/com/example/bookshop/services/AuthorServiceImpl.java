@@ -73,4 +73,13 @@ public class AuthorServiceImpl implements AuthorService {
 
         return authors;
     }
+
+    @Override
+    public List<Author> getAllAuthorNamesEndingWith(String suffix) {
+        List<Author> authors = this.authorRepository.findAllByFirstNameEndingWith(suffix.toLowerCase());
+
+        authors.forEach(a -> System.out.println(a.getFullName()));
+
+        return null;
+    }
 }

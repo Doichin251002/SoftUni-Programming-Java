@@ -7,6 +7,7 @@ import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Set;
 
 @Getter
@@ -47,12 +48,20 @@ public class Book extends BaseEntity {
     @ManyToMany
     private Set<Category> categories;
 
+    public Integer getCopies() {
+        return this.copies;
+    }
+
     public String getTitleEditionTypeAndPrice() {
         return this.title + " " + this.editionType.name() + " " + this.price;
     }
 
-    public String getTitleReleaseDateCopiesFormat() {
+    public String getTitleReleaseDateCopies() {
         return this.title + " " + this.releaseDate + " " + this.copies;
+    }
+
+    public String getTitlePrice() {
+        return this.title + " - $" + this.price;
     }
 }
 
