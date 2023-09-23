@@ -1,0 +1,10 @@
+html {
+    line-height: 1.4;
+    background-color: aliceblue;
+}
+article {
+    width: 65ch;
+    margin: auto;
+    padding: 0.5em 4em;
+    background-color: white;
+}
