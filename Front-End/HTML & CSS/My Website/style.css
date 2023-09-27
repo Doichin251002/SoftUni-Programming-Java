@@ -1,5 +1,6 @@
 html {
-    line-height: 1.4;
+    font: 16px Arial, serif;
+    line-height: 1.5;
     background-color: aliceblue;
 }
 article {

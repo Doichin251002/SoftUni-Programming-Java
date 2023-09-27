@@ -1,0 +1,42 @@
+html {
+    padding: 40px 40px;
+    width: 400px;
+    background-color: lightgrey;
+    border: 2px solid black;
+}
+
+section {
+    margin-top: 40px;
+}
+
+section.filled button, section.icon button {
+    color: white;
+    background-color: black;
+}
+
+h2 {
+    font-weight: 500;
+
+}
+
+button {
+    margin: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: lightgrey;
+}
+
+button:last-child:hover {
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+
+section.normal button:last-child:hover {
+    color: green;
+    background-color: white;
+    border-color: green;
+}
+
