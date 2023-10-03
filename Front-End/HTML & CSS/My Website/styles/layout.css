@@ -1,11 +1,8 @@
 html {
-    box-sizing: border-box;
-    font: 16px Arial, serif;
-    line-height: 1.5;
     background-color: aliceblue;
 }
+
 article {
-    width: 65ch;
     margin: auto;
     padding: 2em 4em;
     background-color: white;
