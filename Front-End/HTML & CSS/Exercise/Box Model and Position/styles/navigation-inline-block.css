@@ -1,0 +1,29 @@
+html {
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+    padding: 40px;
+}
+
+nav * {
+    display: inline-block;
+    padding: 8px;
+    list-style-type: none;
+    text-decoration: none;
+    color: green;
+}
+
+nav {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+main {
+    border-top: 2px solid black;
+}
+
+h2 {
+    margin-top: 30px;
+    font-family: Georgia, sans-serif;
+    font-weight: normal;
+}

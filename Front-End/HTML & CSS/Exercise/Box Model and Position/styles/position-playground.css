@@ -1,0 +1,25 @@
+.viewpoint {
+	height: 100vh;
+	position: relative;
+}
+
+.viewpoint:first-of-type {
+	background-color: dimgrey;
+}
+
+.viewpoint:last-of-type {
+	background-color: midnightblue;
+}
+
+.card {
+	width: 10em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+img {
+	display: block;
+	width: 100%;
+}

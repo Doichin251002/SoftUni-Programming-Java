@@ -1,0 +1,13 @@
+img {
+    width: 260px;
+    float: left;
+    margin-right: 0.9em;
+    border: 5px solid lightsteelblue;
+}
+
+.map {
+    width: 97%;
+    margin: 0.5em 0;
+    padding-right: 0.7em;
+    border: 2px solid darkgrey;
+}

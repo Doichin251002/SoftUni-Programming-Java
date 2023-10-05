@@ -1,0 +1,46 @@
+.main-section, .main-box {
+    margin: 1em 0;
+}
+
+.main-section-title {
+    border-bottom: 1px solid black;
+}
+
+.main-box-title {
+    margin-bottom: 0.2em;
+}
+
+.inner-section {
+    padding: 1em;
+    border: 3px solid lightgrey;
+}
+
+.inner-section-title {
+    margin-bottom: 1em;
+    padding: 0.6em;
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+}
+
+.inner-section ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.inner-section li {
+    margin-bottom: 1em;
+}
+
+.inner-section li.visualized {
+    list-style: none;
+}
+
+.inner-section li.visualized:before {
+    margin-right: 0.2em;
+    content: 'keyboard_arrow_left';
+    font: 25px 'Material Icons';
+    font-weight: bold;
+    vertical-align: -30%;
+    color: lightsteelblue;
+}

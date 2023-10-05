@@ -1,0 +1,40 @@
+body {
+    background-color: #02475e;
+}
+
+div {
+    position: relative;
+    top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-top: 2px solid #fff;
+}
+
+h2, span {
+    text-align: center;
+}
+
+h2 {
+    margin: 12px;
+    font-size: 26px;
+    color: #fefecc;
+}
+
+span {
+    display: block;
+    position: relative;
+    top: -11px;
+    width: 120px;
+    margin: 0 auto;
+    padding: 3px 5px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+p {
+    padding: 10px;
+    line-height: 24px;
+    text-indent: 30px;
+    font-family: Arial, sans-serif;
+    color: #eee;
+}

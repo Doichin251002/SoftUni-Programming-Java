@@ -3,5 +3,5 @@ html {
 }
 
 article {
-    width: 65ch;
+    max-width: 65ch;
 }
