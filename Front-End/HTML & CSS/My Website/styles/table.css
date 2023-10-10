@@ -13,8 +13,8 @@ td:first-child {
     text-align: left;
 }
 
-.header-table tr td:first-child {
-    font-weight: bolder;
+.header-table {
+    margin: auto 1em;
 }
 
 .header-table caption {
@@ -31,6 +31,10 @@ td:first-child {
 
 .header-table tr:nth-child(even) {
     background-color: lightcyan;
+}
+
+.header-table tr td:first-child {
+    font-weight: bolder;
 }
 
 .header-table tr td:last-child {

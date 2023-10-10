@@ -4,7 +4,7 @@ html {
 
 article {
     margin: 1em auto;
-    padding: 2em 4em;
+    padding: 4em;
     background-color: white;
     box-shadow: darkgrey 0 2px 18px 0;
 }
@@ -18,25 +18,9 @@ article {
 }
 
 summary, p {
-    margin: 0.5em 0;
+    margin: 0.5em auto;
 }
 
-.description {
-    margin-top: 0.2em;
-}
-
-p:first-of-type:not(.description) {
+p:first-of-type {
     text-indent: 2.5em;
 }
-
-h1, h2, h3, h4, h5, h6, span {
-    font-size: 1em;
-    font-weight: normal;
-}
-
-h1 { font-size: 3.5em; font-weight: bold}
-h2 { font-size: 2.4em; font-weight: bold}
-h3 { font-size: 1.8em; font-weight: bold}
-h4 { font-size: 1.4em; font-weight: bold}
-h5 { font-size: 1.2em; font-weight: bold}
-h6 { font-size: 1em; font-weight: bold}

@@ -12,7 +12,8 @@
 
 .inner-section {
     padding: 1em;
-    border: 3px solid lightgrey;
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
 }
 
 .inner-section-title {
@@ -23,24 +24,34 @@
     background-color: steelblue;
 }
 
+.inner-section p {
+    text-indent: 0;
+}
+
 .inner-section ul {
-    list-style-type: disc;
-    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .inner-section li {
-    margin-bottom: 1em;
+    min-height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid lightsteelblue;
+    overflow: hidden;
 }
 
-.inner-section li.visualized {
-    list-style: none;
+.inner-section img {
+    width: 45%;
+    height: auto;
+    display: block;
+    box-shadow: 0 0 80px 30px grey;
 }
 
-.inner-section li.visualized:before {
-    margin-right: 0.2em;
-    content: 'keyboard_arrow_left';
-    font: 25px 'Material Icons';
-    font-weight: bold;
-    vertical-align: -30%;
-    color: lightsteelblue;
+.inner-section div.description {
+    flex-basis: 55%;
+    flex-grow: 1;
+    padding: 2em 4em;
+    align-self: center;
 }
