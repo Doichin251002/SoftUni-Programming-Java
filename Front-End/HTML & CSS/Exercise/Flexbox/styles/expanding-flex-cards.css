@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(238, 238, 238);
+}
+
+.container {
+	display: flex;
+}
+
+.container ul {
+	display: flex;
+	gap: 1em;
+	list-style-type: none;
+}
+
+.container li {
+	display: block;
+	width: 10em;
+	height: 25em;
+	overflow: hidden;
+	border-radius: 0.5em;
+	box-shadow: 0 0 20px grey;
+	transition: width 0.3s ease-in-out;
+}
+
+.container img {
+	display: block;
+	width: auto;
+	height: 100%;
+}
+
+.container li:hover {
+	width: 30em;
+}

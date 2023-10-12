@@ -4,13 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Penguins - Еncyclopedia</title>
 	<link rel="stylesheet" href="styles/site.css">
-	;
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
 <article>
 	<header>
-		<h1 class="article-title">Penguin</h1>
+		<h1 class="article-title"><a href="#">Penguin</a></h1>
+		
+		<nav class="main-nav">
+			<ul>
+				<li><a href="#">Etymology</a></li>
+				<li><a href="#">Systematics</a></li>
+				<li><a href="#">Habitat</a></li>
+			</ul>
+		</nav>
 		
 		<table class="header-table">
 			<caption>Scientific classification</caption>
@@ -103,14 +110,17 @@
 				merely a color morph of the macaroni penguin. The status of the rockhopper penguins is also unclear.</p>
 			
 			<section class="main-box">
-				<h4 class="box-title">Subfamily Spheniscinae <span class="appellation">– modern penguins</span></h4>
+				<h4 class="main-box-title">Subfamily Spheniscinae <span class="appellation">– modern penguins</span>
+				</h4>
 				
 				<section class="inner-section">
 					<h5 class="inner-section-title">Aptenodytes <span class="appellation">– great penguins</span></h5>
 					
 					<ul>
 						<li>
-							<img src="resources/King_penguin.png" alt="King Penguin">
+							<div class="image-container">
+								<img src="resources/King_penguin.png" alt="King Penguin">
+							</div>
 							
 							<div class="description">
 								<span class="inner-list-title"><strong>King penguin</strong>, <em>Aptenodytes patagonicus</em></span>
@@ -130,7 +140,9 @@
 									300 metres.</p>
 							</div>
 							
-							<img src="resources/263px-Emperor_Penguin_Manchot_empereur.jpg" alt="Emperor Penguin">
+							<div class="image-container">
+								<img src="resources/263px-Emperor_Penguin_Manchot_empereur.jpg" alt="Emperor Penguin">
+							</div>
 						</li>
 					</ul>
 				</section>
@@ -141,7 +153,9 @@
 					
 					<ul>
 						<li>
-							<img src="/resources/Adelie_penguin.png" alt="Adelie Penguin">
+							<div class="image-container">
+								<img src="/resources/Adelie_penguin.png" alt="Adelie Penguin">
+							</div>
 							
 							<div class="description">
 								<span class="inner-list-title"><strong>Adélie penguin</strong>, Pygoscelis adeliae</span>
@@ -156,18 +170,21 @@
 							<div class="description">
 									<span class="inner-list-title"><strong>Chinstrap penguin</strong>,
 										<em>Pygoscelis antarcticus</em></span>
-								<p>Its name stems from the narrow black band under
-									its head, which makes it appear as if it were wearing a black helmet, making it easy
-									to identify. Other common names include ringed penguin, bearded penguin, and
-									stonecracker penguin, due to its loud, harsh call. </p>
+								<p>Its name stems from the narrow black band under its head, which makes it appear as if
+									it were wearing a black helmet, making it easy to identify.</p>
 							</div>
 							
-							<img src="resources/Pygoscelis_antarcticus_-Cooper_Bay,_South_Georgia,_British_Overseas_Territories,_UK-8.jpg"
-							     alt="Chinstrap Penguin">
+							<div class="image-container">
+								<img src="resources/Pygoscelis_antarcticus_-Cooper_Bay,_South_Georgia,_British_Overseas_Territories,_UK-8.jpg"
+								     alt="Chinstrap Penguin">
+							</div>
 						</li>
 						
 						<li>
-							<img src="/resources/Gentoo-Penguin-(Pygoscelis-Papua).png" alt="Gentoo Penguin">
+							<div class="image-container">
+								<img src="/resources/Gentoo-Penguin-(Pygoscelis-Papua).png" alt="Gentoo Penguin">
+							</div>
+							
 							<div class="description">
 								<span class="inner-list-title"><strong>Gentoo penguin</strong>, <em>Pygoscelis papua</em></span>
 								<p>The earliest scientific description was made in 1781 by Johann Reinhold Forster with
@@ -192,16 +209,19 @@
 									name kororā (bird with swim feet).</p>
 							</div>
 							
-							<img src="resources/little-penguin.png" alt="Little Penguin">
+							<div class="image-container">
+								<img src="resources/little-penguin.png" alt="Little Penguin">
+							</div>
 						</li>
 						
 						<li>
-							<img src="resources/img.png" alt="Australian Little Penguin">
+							<div class="image-container">
+								<img src="resources/Australian-little-penguin.png" alt="Australian Little Penguin">
+							</div>
 							
 							<div class="description">
 								<span class="inner-list-title"><strong>Australian little penguin</strong>, <em>Eudyptula novaehollandiae</em></span>
-								<p>The distinct bright blue feathers of Australian Eudyptula
-									novaehollandiae, also called the fairy penguin, distinguishes this species from
+								<p>The distinct bright blue feathers of Australian little penguin, also called the fairy penguin, distinguishes this species from
 									these in New Zealand Eudyptula minor. </p>
 							</div>
 						</li>
@@ -220,11 +240,15 @@
 									birds in 1520.</p>
 							</div>
 							
-							<img src="resources/Magellanic-penguin.png" alt="Magellanic Penguin">
+							<div class="image-container">
+								<img src="resources/Magellanic-penguin.png" alt="Magellanic Penguin">
+							</div>
 						</li>
 						
 						<li>
-							<img src="resources/galapagos-penguin.png" alt="Galápagos Penguin">
+							<div class="image-container">
+								<img src="resources/galapagos-penguin.png" alt="Galápagos Penguin">
+							</div>
 							
 							<div class="description">
 								<span class="inner-list-title"><strong>Galápagos penguin</strong>, <em>Spheniscus mendiculus</em></span>
@@ -243,7 +267,9 @@
 									noise.</p>
 							</div>
 							
-							<img src="resources/African_penguin.png" alt="African Penguin">
+							<div class="image-container">
+								<img src="resources/African_penguin.png" alt="African Penguin">
+							</div>
 						</li>
 					</ul>
 				</section>
@@ -253,7 +279,9 @@
 					
 					<ul>
 						<li>
-							<img src="resources/Yellow-eyed_Penguin_MC.png" alt="Yellow-eyed Penguin">
+							<div class="image-container">
+								<img src="resources/Yellow-eyed_Penguin_MC.png" alt="Yellow-eyed Penguin">
+							</div>
 							
 							<div class="description">
 								<span class="inner-list-title"><strong>Yellow-eyed penguin</strong>, <em>Megadyptes antipodes</em> (endangered)</span>
@@ -266,13 +294,15 @@
 						<li>
 							<div class="description">
 								<span class="inner-list-title"><strong>Waitaha penguin</strong>, <em>Megadyptes waitaha</em> (extinct, disputed)</span>
-								<blockquote class="description">"The fact we find these bones in archaeological sites,
+								<blockquote class="description">The fact we find these bones in archaeological sites,
 									villages or settlements, suggests hunting played a role in their extinction.
-									The birds were an easy target, easy to take and there were never very many of them."
+									The birds were an easy target, easy to take and there were never very many of them.
 								</blockquote>
 							</div>
 							
-							<img src="resources/Megadyptes-waitaha.png" alt="Waitaha Penguin">
+							<div class="image-container">
+								<img src="resources/Megadyptes-waitaha.png" alt="Waitaha Penguin">
+							</div>
 						</li>
 					</ul>
 				</section>
@@ -282,7 +312,9 @@
 					
 					<ul>
 						<li>
-							<img src="resources/Fiordland_penguin.png" alt="Fiordland Penguin">
+							<div class="image-container">
+								<img src="resources/Fiordland_penguin.png" alt="Fiordland Penguin">
+							</div>
 							
 							<div class="description">
 								<span class="inner-list-title"><strong>Fiordland penguin</strong>, <em>Eudyptes pachyrhynchus</em></span>
@@ -301,11 +333,15 @@
 									the base of its large red-brown bill.</p>
 							</div>
 							
-							<img src="resources/SnaresPenguin_(Mattern)_large.jpg" alt="Snares penguin">
+							<div class="image-container">
+								<img src="resources/SnaresPenguin_(Mattern)_large.jpg" alt="Snares penguin">
+							</div>
 						</li>
 						
 						<li>
-							<img src="resources/Rockhopper-penguin.png" alt="Rockhopper-penguin">
+							<div class="image-container">
+								<img src="resources/Rockhopper-penguin.png" alt="Rockhopper-penguin">
+							</div>
 							
 							<div class="description">
 								<span class="inner-list-title"><strong>Southern rockhopper penguin</strong>, <em>Eudyptes chrysocome</em></span>
@@ -323,11 +359,15 @@
 									(E. c. chrysocome) and eastern (E. c. filholi) penguin subspecies, </p>
 							</div>
 							
-							<img src="resources/Northern_rockhopper_penguin.png" alt="Northern Rockhopper Penguin">
+							<div class="image-container">
+								<img src="resources/Northern_rockhopper_penguin.png" alt="Northern Rockhopper Penguin">
+							</div>
 						</li>
 						
 						<li>
-							<img src="resources/Royal-penguin.png" alt="Royal penguin">
+							<div>
+								<img src="resources/Royal-penguin.png" alt="Royal penguin">
+							</div>
 							
 							<div class="description">
 								<span class="inner-list-title"><strong>Royal penguin</strong>, <em>Eudyptes schlegeli</em> (disputed)</span>
@@ -345,7 +385,9 @@
 									lophos "crest".</p>
 							</div>
 							
-							<img src="resources/Macaroni-penguin.png" alt="Macaroni penguin">
+							<div class="image-container">
+								<img src="resources/Macaroni-penguin.png" alt="Macaroni penguin">
+							</div>
 						</li>
 					</ul>
 				</section>
@@ -436,9 +478,7 @@
 	</main>
 	
 	<footer>
-		<nav>
-			<a href="https://en.wikipedia.org/wiki/Penguin">Learn more...</a>
-		</nav>
+		<a href="https://en.wikipedia.org/wiki/Penguin">Learn more...</a>
 	</footer>
 </article>
 </body>

@@ -1,13 +1,5 @@
-.main-section, .main-box {
-    margin: 1em 0;
-}
-
 .main-section-title {
     border-bottom: 1px solid black;
-}
-
-.main-box-title {
-    margin-bottom: 0.2em;
 }
 
 .inner-section {
@@ -32,26 +24,32 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
+    list-style: none;
 }
 
 .inner-section li {
-    min-height: 40%;
+    min-height: 150px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     border: 5px solid lightsteelblue;
     overflow: hidden;
 }
 
 .inner-section img {
-    width: 45%;
+    width: 100%;
     height: auto;
     display: block;
+    object-fit: contain;
+}
+
+.inner-section div.image-container {
+    width: 70%;
     box-shadow: 0 0 80px 30px grey;
 }
 
 .inner-section div.description {
-    flex-basis: 55%;
-    flex-grow: 1;
-    padding: 2em 4em;
+    width: 50%;
+    margin: 0 3em;
+    padding: 1em;
     align-self: center;
 }

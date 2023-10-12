@@ -1,10 +1,28 @@
 html {
-    font: 16px/1.5 Arial, serif;
+    font: 12px/1.5 Arial, serif;
     font-weight: normal;
+}
+
+@media (min-width: 600px) {
+    html { font-size: 14px }
+}
+
+@media (min-width: 900px) {
+    html { font-size: 16px }
+}
+
+@media (min-width: 2000px) {
+    html { font-size: 20px }
+}
+
+header, main, section, details {
+    margin-bottom: 1em;
 }
 
 h1, h2, h3, h4, h5, h6, span {
     font-size: 1em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
 }
 
 h1 { font-size: 3.5em; font-weight: bold}
@@ -14,6 +32,22 @@ h4 { font-size: 1.4em; font-weight: bold}
 h5 { font-size: 1.2em; font-weight: bold}
 h6 { font-size: 1em; font-weight: bold}
 
-article {
-    max-width: 50vw;
+ul, ol {
+    list-style-position: inside;
+}
+
+blockquote:before, blockquote:after {
+    content: '"';
+}
+
+section > section {
+    margin-top: 0.5em;
+}
+
+p + p {
+    margin-top: 0.5em;
+}
+
+p:first-of-type {
+    text-indent: 2.5em;
 }

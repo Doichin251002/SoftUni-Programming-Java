@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 4em;
+	font-family: Helvetica, sans-serif;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: start;
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+	border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+p {
+	padding-top: 1.5em;
+}
+
+header h1 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+}
+
+header ul {
+	display: inline-flex;
+	gap: 1em;
+	list-style-type: none;
+	color: rgb(0, 153, 0);
+}
+
+main h1 {
+	font: 1.5em Georgia, serif;
+}

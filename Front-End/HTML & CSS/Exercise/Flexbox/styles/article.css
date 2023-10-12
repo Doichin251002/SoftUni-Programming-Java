@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+section {
+	margin: 4em auto;
+	max-width: 70vw;
+	display: flex;
+	justify-content: space-between;
+	gap: 2em;
+}
+
+h2 {
+	margin-bottom: 0.5em;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	line-height: 1.2;
+}

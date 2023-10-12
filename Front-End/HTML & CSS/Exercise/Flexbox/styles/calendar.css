@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 2em;
+	font-family: Arial, serif;
+}
+
+div {
+	max-width: 65vw;
+	display: flex;
+	border: 1px solid black;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+span {
+	flex-grow: 1;
+	padding-top: 0.5em;
+	padding-bottom: 3em;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.notes {
+	flex-direction: column;
+	flex-grow: 2;
+	align-items: stretch;
+}
+
+.week span:first-child, span:nth-last-child(3) {
+	flex-basis: 100%;
+}

@@ -1,20 +1,21 @@
 table {
-    float: right;
     border-collapse: collapse;
 }
 
 td {
-    padding: 0.1em 0.7em;
+    padding: 0.2em 0.7em;
     text-align: center;
     font-size: 15px;
 }
 
 td:first-child {
     text-align: left;
+    font-weight: bold;
 }
 
 .header-table {
-    margin: auto 1em;
+    float: right;
+    margin: 1em;
 }
 
 .header-table caption {
@@ -42,26 +43,26 @@ td:first-child {
 }
 
 .main-table {
+    width: 100%;
     margin-bottom: 1em;
+    border: 3px solid navajowhite;
 }
 
 .main-table td {
-    border: 2px solid navajowhite;
+    border: 2px solid white;
 }
 
 .main-table thead tr td {
     padding: 0.8em;
     text-align: center;
-    font-style: initial;
+    font-size: 18px;
+    font-style: normal;
     font-weight: bold;
-    background-color: blanchedalmond;
-    border-bottom: 4px solid navajowhite;
-}
-
-.main-table tbody td:first-child {
-    font-style: oblique;
+    color: white;
+    background-color: navajowhite;
+    border: 1px solid white;
 }
 
 .main-table tr:nth-child(even) {
-    background-color: floralwhite;
+    background-color: papayawhip;
 }

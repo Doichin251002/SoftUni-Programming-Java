@@ -1,0 +1,15 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(238, 238, 238);
+}
+
+.card {
+	flex-basis: 20%;
+	padding: 0 1em;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 10px grey;
+	border-radius: 0.4em;
+}
