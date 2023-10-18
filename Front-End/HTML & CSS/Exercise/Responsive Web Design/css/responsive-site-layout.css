@@ -1,0 +1,67 @@
+@media (max-width: 500px) {
+	body, header, nav ul {
+		flex-direction: column;
+	}
+
+	header h1 {
+		align-self: normal;
+	}
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+header, main, aside, footer {
+	padding: 0 1em;
+	background-color: lightskyblue;
+	border-radius: 0.4em;
+}
+
+header, footer {
+	flex-basis: 100%;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main {
+	flex: 15 1 auto;
+}
+
+aside {
+	flex: 1 1 auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header a {
+	color: steelblue;
+}
+
+main ul {
+	list-style-position: inside;
+}
+
+nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: block;
+}
+
+header nav ul {
+	display: flex;
+	gap: 4em;
+	padding-left: 2em;
+}

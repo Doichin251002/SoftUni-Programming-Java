@@ -2,13 +2,18 @@
     border-bottom: 1px solid black;
 }
 
-.inner-section {
-    padding: 1em;
-    border: 1px solid lightgrey;
-    border-collapse: collapse;
+.main-box p {
+    text-indent: 0;
 }
 
-.inner-section-title {
+.genus {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: 1px solid lightgrey;
+}
+
+.genus-title {
     margin-bottom: 1em;
     padding: 0.6em;
     text-align: center;
@@ -16,40 +21,39 @@
     background-color: steelblue;
 }
 
-.inner-section p {
-    text-indent: 0;
-}
-
-.inner-section ul {
+.genus .species {
     display: flex;
-    flex-direction: column;
-    gap: 1em;
-    list-style: none;
-}
-
-.inner-section li {
     min-height: 150px;
-    display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin: 0;
     border: 5px solid lightsteelblue;
     overflow: hidden;
 }
 
-.inner-section img {
+.species + .species {
+    margin-top: 1em;
+}
+.species img {
+    display: block;
     width: 100%;
     height: auto;
-    display: block;
     object-fit: contain;
 }
 
-.inner-section div.image-container {
-    width: 70%;
+
+.species .image-container {
+    display: block;
+    max-width: 50%;
     box-shadow: 0 0 80px 30px grey;
 }
 
-.inner-section div.description {
-    width: 50%;
+.species .description {
+    display: block;
+    max-width: 50%;
     margin: 0 3em;
-    padding: 1em;
-    align-self: center;
+}
+
+.species .description p {
+    margin-top: 0.5em;
 }

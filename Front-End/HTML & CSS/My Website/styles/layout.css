@@ -7,14 +7,68 @@ body {
 }
 
 article {
+    display: flex;
     max-width: 50vw;
     min-height: 100vh;
-    display: flex;
     flex-direction: column;
     margin: auto;
     padding: 3em 4em;
     background-color: white;
     box-shadow: darkgrey 0 2px 18px 0;
+}
+
+@media screen and (min-width: 300px) {
+    body {
+        margin: 0;
+    }
+    article {
+        max-width: 100vw;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        margin: 2em auto;
+    }
+    article {
+        max-width: 70vw;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    body {
+        margin: 3em auto;
+    }
+    article {
+        max-width: 50vw;
+    }
+}
+
+button {
+    width: 100%;
+    margin-top: 0.3em;
+    padding: 1em;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 10px lightgrey;
+}
+
+button a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.map {
+    width: 100%;
+    margin-top: 1em;
+    border: 2px solid darkgrey;
 }
 
 .article-title {
@@ -24,15 +78,4 @@ article {
     text-transform: uppercase;
     background-color: skyblue;
     border: 5px solid black;
-}
-
-.article-title a {
-    text-decoration: none;
-    color: black;
-}
-
-.map {
-    width: 100%;
-    margin-top: 1em;
-    border: 2px solid darkgrey;
 }
