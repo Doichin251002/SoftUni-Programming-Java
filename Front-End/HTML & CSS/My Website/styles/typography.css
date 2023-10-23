@@ -45,6 +45,13 @@ a {
     color: black;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 p + p {
     margin-top: 0.5em;
 }
