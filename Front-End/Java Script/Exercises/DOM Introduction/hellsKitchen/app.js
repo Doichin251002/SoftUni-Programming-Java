@@ -1,12 +1,8 @@
 function solve() {
-    document.querySelector('#btnSend')
-        .addEventListener('click', onClick);
+    document.querySelector('#btnSend').addEventListener('click', onClick);
 
     function onClick() {
-        let restaurantStringsArray = document
-            .querySelector("#inputs textarea").value;
-
-        restaurantStringsArray = restaurantStringsArray.split("\"").filter(e => e.match(/[\w\-\d, ]+\b/g));
+        let restaurantStringsArray = JSON.parse(document.querySelector("#inputs textarea").value);
 
         let restaurantsWorkers = {};
         for (const restaurantString of restaurantStringsArray) {
@@ -54,7 +50,6 @@ function solve() {
         const bestAvgSalary = Object.values(restaurantAvgSalary)[0];
         const workers = restaurantsWorkers[bestRestaurant];
         const bestWorkerSalary = Object.values(workers)[0][1];
-        console.log(workers)
 
         let pElementRestaurant = document.querySelector("#bestRestaurant p");
         pElementRestaurant.textContent = `Name: ${bestRestaurant} Average Salary: ${bestAvgSalary.toFixed(2)} Best Salary: ${bestWorkerSalary.toFixed(2)}`;
